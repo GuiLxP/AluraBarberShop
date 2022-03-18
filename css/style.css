@@ -1,5 +1,23 @@
 body {
-	font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+  }
+body > * {
+  background: #eee;
+  padding: 2rem;
+  text-align: center;
+  border: 5px solid white;
+}
+  
+.header,
+.footer {
+  flex: 1 100%;
+}
+.sidebar {
+  flex: 1;
+}
+.main {
+  flex: 2;
 }
 
 header {

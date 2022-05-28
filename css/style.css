@@ -84,7 +84,7 @@ nav a:hover {
 
 footer {
 	text-align: center;
-	background: url("img/bg.jpg");
+	background: url("/img/bg.jpg");
 	backgroun: #000000;
 	padding: 40px 0;
 }
@@ -100,7 +100,7 @@ footer {
 }*/
 
 form {
-	margin: 40px 0;
+	margin: 40px ;
 }
 
 form label, form legend {
@@ -140,7 +140,7 @@ form label, form legend {
 }
 
 table {
-	margin: 20px 0 40px;
+	margin: 20px 40px;
 }
 
 thead {
